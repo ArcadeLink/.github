@@ -2,7 +2,7 @@
 
 Arcade Link is an open-source project that helps arcade games implement features such as **self-service recording**, **online queueing**, and **retrieval of replays (WIP)**. Some parts of the project are still being organized and have not been open-sourced yet.
 
-[中文文档](README_cn.md).
+[中文文档](https://github.com/ArcadeLink/.github/blob/master/profile/README_cn.md).
 
 # Introduction
 
