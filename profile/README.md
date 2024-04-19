@@ -18,27 +18,20 @@ Arcade Link is an open-source project that helps arcade games implement features
 - [x] Self-service recording on the arcade side
 - [x] Automatic live streaming on bilibili on the arcade side
 - [x] Online queueing on the arcade side
-- [x] Web App
-- [ ] Android App
+- [x] Android App
+- [ ] Wechat-Miniprogram
 - [ ] iOS App
 - [ ] Retrieval of replays
 
-## Installation
-
-### Binary Files
-
-#### Windows
-
-Double-click `Aircade.exe` to run.
-
-#### Linux / MacOS
-
-```bash
-chmod +x ./Aircade
-./Aircade
-```
+When all(except iOS) progress archieved, this project will be open-sourced.
 
 # Contribution Guide
+
+## Join
+
+Any types of developers is needed! We mainly need wechat-miniprogram, Kotlin and DotNet developers right now.
+
+## Commit
 
 We welcome all contributions! If you wish to contribute code, please follow the steps below:
 
