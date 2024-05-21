@@ -8,9 +8,22 @@ Arcade Link is an open-source project that helps arcade games implement features
 
 ## Project Structure
 
-- `Aircade` is the app used by the project, used for downloading recordings and interacting with the arcade side.
-- `ApiServer` is the backend of the project, used for handling user authentication and queueing functions.
-- `Aircade.Web` is the web version of the app, only the queueing function is retained.
+### Server-Side
+
+An api server is needed for auth and queue.
+- `ApiServer` is the lagecy version backend of the project, used for handling user authentication and queueing functions.
+- `ArcadeLink.Api` is the latest version.
+
+### Client-Side
+
+Client applications generate QR code for queue, and offer video download to player.
+- `Aircade` is the android app used by the project, used for downloading recordings and interacting with the arcade side. Developed with compose.
+- `ArcadeLink.Air` is the flutter app offer lightweight service to players.
+- `Aircade.Web` is the web version of the app, only the queueing function is retained. For more features like changing nickname please head to `ArcadeLink.Air`
+
+### Arcade-Side
+
+This is a terminal for players to sign in(join queue) and record videos.
 - `ArcadeLink.UI` provides the UI for the arcade side, used to display recording status and queueing information.
 
 ## Project Progress
@@ -23,13 +36,13 @@ Arcade Link is an open-source project that helps arcade games implement features
 - [ ] iOS App
 - [ ] Retrieval of replays
 
-When all(except iOS) progress archieved, this project will be open-sourced.
+When all(except iOS) progress archieved, this project will be fully open-sourced.
 
 # Contribution Guide
 
 ## Join
 
-Any types of developers is needed! We mainly need wechat-miniprogram, Kotlin and DotNet developers right now.
+Any types of developers is needed! We mainly need Kotlin and DotNet developers.
 
 ## Commit
 
@@ -45,4 +58,4 @@ If you have any questions, feel free to submit an issue.
 
 # Contact Us
 
-If you have any questions or feedback, please send an email to `haotrip05@gmail.com`
+If you have any questions or feedback, please send an email to `i@bg8lrr.site`
