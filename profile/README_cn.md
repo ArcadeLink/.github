@@ -1,5 +1,8 @@
 # ArcadeLink
 
+![Profile Image@2x](https://github.com/ArcadeLink/.github/assets/22652631/54004b42-13f9-44a4-aabf-69a8cd953600)
+
+
 Arcade Link 是一个帮助街机游戏实现 **自助录像**、**自动直播**、**电子排卡** 以及 **调取回放（WIP）** 等功能的开源项目. 部分项目仍然在整理中，尚未完全开源.
 
 # 机厅接入
